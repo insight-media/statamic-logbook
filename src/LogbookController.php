@@ -1,6 +1,6 @@
 <?php
 
-namespace AryehRaber\Logbook;
+namespace InsightMedia\Logbook;
 
 use Illuminate\Http\Request;
 use Statamic\Http\Controllers\Controller;

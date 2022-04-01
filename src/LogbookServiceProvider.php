@@ -1,6 +1,6 @@
 <?php
 
-namespace AryehRaber\Logbook;
+namespace InsightMedia\Logbook;
 
 use Statamic\Facades\Utility;
 use Illuminate\Routing\Router;

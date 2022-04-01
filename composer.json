@@ -1,5 +1,5 @@
 {
-    "name": "aryehraber/statamic-logbook",
+    "name": "insight-media/statamic-logbook",
     "type": "statamic-addon",
     "description": "Manage and view log files in the CP.",
     "keywords": [
@@ -7,18 +7,24 @@
         "logbook",
         "logs"
     ],
-    "homepage": "https://github.com/aryehraber/statamic-logbook",
+    "homepage": "https://github.com/insight-media/statamic-logbook",
     "license": "MIT",
     "require": {
-        "rap2hpoutre/laravel-log-viewer": "^1.4.0",
+        "rap2hpoutre/laravel-log-viewer": "^2.0",
         "statamic/cms": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "AryehRaber\\Logbook\\": "src"
+            "InsightMedia\\Logbook\\": "src"
         }
     },
     "authors": [
+        {
+            "name": "Insight Media",
+            "email": "dries@insight-media.be",
+            "homepage": "https://insight-media.be",
+            "role": "Developer"
+        },
         {
             "name": "Aryeh Raber",
             "email": "aryeh.raber@gmail.com",
@@ -34,7 +40,7 @@
         },
         "laravel": {
             "providers": [
-                "AryehRaber\\Logbook\\LogbookServiceProvider"
+                "InsightMedia\\Logbook\\LogbookServiceProvider"
             ]
         }
     },

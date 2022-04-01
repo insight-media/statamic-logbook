@@ -1,3 +1,6 @@
+<br>
+<img src="https://www.insight-media.be/images/logo.svg" height="80">
+
 # Logbook
 
 **View log files in the CP**
@@ -14,13 +17,13 @@ You can view a full stack trace by clicking on it.
 Install the addon via composer:
 
 ```
-composer require aryehraber/statamic-logbook
+composer require insight-media/statamic-logbook
 ```
 
 Publish the utility assets:
 
 ```
-php artisan vendor:publish --provider="AryehRaber\Logbook\LogbookServiceProvider"
+php artisan vendor:publish --provider="InsightMedia\Logbook\LogbookServiceProvider"
 ```
 
 That's it! Logbook can now be accessed via the CP under `Tools > Utilities`.
