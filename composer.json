@@ -10,7 +10,7 @@
     "homepage": "https://github.com/insight-media/statamic-logbook",
     "license": "MIT",
     "require": {
-        "rap2hpoutre/laravel-log-viewer": "^2.0",
+        "rap2hpoutre/laravel-log-viewer": "^v2.1",
         "statamic/cms": "^3.0"
     },
     "autoload": {
